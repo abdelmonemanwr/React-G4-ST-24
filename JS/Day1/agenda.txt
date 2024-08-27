@@ -1,0 +1,18 @@
+Day 1:
+    - History about JS
+    - where to write js code
+    - variables
+    - data types
+    - arthematic operators
+    - comparisons
+    - logical operators
+    - short circuits
+    - conditions
+    - loops
+    - take value from user
+    - how to write in html page using JS
+    - inform user (alert, confirm)
+
+
+Extension:
+    - Live Server
