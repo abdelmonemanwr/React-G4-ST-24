@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Day 4</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- <div id="parent">
+        <button class="windowClass" onclick="openWindow()">Open New Window</button>
+        <button class="windowClass" onclick="closeWindow()">Close Window</button>
+        <button class="windowClass" onclick="moveToWindow()">Move To</button>
+        <button class="windowClass" onclick="moveByWindow()">Move By</button>
+        <button class="windowClass" onclick="resizeToWindow()">Resize To</button>
+        <button class="windowClass" onclick="resizeByWindow()">Resize By</button>
+    </div> -->
+    <div class="parent">
+        <h1 id="head1">Our Products</h1>
+        <p class="content">Dolore aliqua elit tempor sit exercitation incididunt amet voluptate minim ullamco nulla
+            ullamco aliquip
+            excepteur.Dolore aliqua elit tempor sit exercitation incididunt amet voluptate minim ullamco nulla ullamco
+            aliquip
+            excepteur.</p>
+
+        <!-- onclick="Test(event)" -->
+        <button id="btn">Change</button>
+    </div>
+    <div class="parent">
+        <h1 id="head2">Our Team</h1>
+        <p class="content">iti Dolore aliqua elit tempor sit exercitation incididunt amet voluptate minim ullamco nulla
+            ullamco aliquip
+            excepteur.Dolore aliqua elit tempor sit exercitation incididunt amet voluptate minim ullamco nulla ullamco
+            aliquip
+            excepteur.</p>
+    </div>
+    <div class="extra">
+        <a class="linkedin" href="https://www.linkedin.com/in/abdalmonem-anwar-73710a1ba/" target="_blank">Linkedin</a>
+
+        <a class="google" href="https://www.google.com.eg" target="_blank">Google</a>
+
+        <input type="text" placeholder="Enter Username" id="input" oninput="getText(event)" name="username" value="" />
+
+        <!-- onmouseenter, monmouseleave, onmouseover, onmouseout, onfocus, onblur -->
+
+        <!-- <img id="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" /> -->
+    </div>
+
+    <div>
+        <form onsubmit="login(event)">
+            <input type="text" class="in" id="input" value="" placeholder="Enter your username" />
+            <span id="errorMSG">username length must be more than 5 characters</span>
+            <button id="send" type="submit">Submit</button>
+        </form>
+    </div>
+    <div>
+        <div class="first" onclick="first(event)">
+            <div class="second" onclick="second(event)">
+                <div class="third" onclick="third(event)"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
